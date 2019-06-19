@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/controller/CertificateServlet.java=UTF-8
+encoding//src/controller/EmailServlet.java=UTF-8
+encoding//src/controller/LoginServlet.java=UTF-8
+encoding//src/controller/RecordServlet.java=UTF-8
+encoding//src/controller/RecordUpdateServlet.java=UTF-8
+encoding//src/filter/LoginFilter.java=UTF-8
+encoding//src/service/PageService.java=UTF-8
+encoding//src/service/Upload.java=UTF-8
+encoding//src/util/C3P0Utils.java=UTF-8
+encoding//src/util/SendmailUtil.java=UTF-8
+encoding/<project>=UTF-8

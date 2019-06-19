@@ -1,0 +1,6 @@
+#tab > tbody > tr > td {
+    text-align: center;
+}
+.widget-title button{
+    margin: 5px 0 0 5px;
+}

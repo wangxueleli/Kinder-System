@@ -1,0 +1,124 @@
+body {
+  background-color: #ffffff;
+}
+
+#header {
+  box-shadow: 0 1px 0 #01c0c8;
+  background-color: #01c0c8;
+  /* Old browsers */
+  background-image: -webkit-gradient(linear, 0 0%, 0 100%, from(#01c0c8), to(#01c0c8));
+  /* Chrome,Safari4+ */
+  background-image: -webkit-linear-gradient(top, #01c0c8 0%, #01c0c8 100%);
+  /* Chrome10+,Safari5.1+ */
+  background-image: -moz-linear-gradient(top, #01c0c8 0%, #01c0c8 100%);
+  /* FF3.6+ */
+  background-image: -ms-linear-gradient(top, #01c0c8 0%, #01c0c8 100%);
+  /* IE10+ */
+  background-image: -o-linear-gradient(top, #01c0c8 0%, #01c0c8 100%);
+  /* Opera 11.10+ */
+  background-image: linear-gradient(top, #01c0c8 0%, #01c0c8 100%);
+  /* W3C */
+  border-bottom: 1px solid #555555;
+}
+
+#sidebar>ul>li.active {
+  background-color: #e5e5e5;
+  background-image: -webkit-gradient(linear, 0 0%, 0 100%, from(#e5e5e5), to(#e5e5e5));
+  background-image: -webkit-linear-gradient(top, #e5e5e5 0%, #e5e5e5 100%);
+  background-image: -moz-linear-gradient(top, #e5e5e5 0%, #e5e5e5 100%);
+  background-image: -ms-linear-gradient(top, #e5e5e5 0%, #e5e5e5 100%);
+  background-image: -o-linear-gradient(top, #e5e5e5 0%, #e5e5e5 100%);
+  background-image: linear-gradient(top, #e5e5e5 0%, #e5e5e5 100%);
+}
+
+#sidebar>ul>li.open.submenu>a {
+  border-bottom: 1px solid #ffffff;
+}
+
+#sidebar>ul>li.open.active.submenu>a {
+  border-bottom: 1px solid #ffffff;
+}
+
+#sidebar>ul ul {
+  border-top: 1px solid #ffffffce;
+  background-color: #ffffff;
+}
+
+#sidebar>ul>li {
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+#sidebar>ul ul li {
+  border-top: 0;
+  border-bottom: 0;
+}
+
+#sidebar>ul>li>a {
+  padding: 10px 0 10px 15px;
+  display: block;
+  color: #000000;
+}
+
+#sidebar>ul ul li a {
+  padding: 10px 0 10px 65px;
+  display: block;
+  color: #000000;
+}
+
+#sidebar {
+  background-color: #CCCCCC;
+}
+
+#sidebar>ul {
+  list-style: none;
+  margin: 0 0;
+  padding: 0;
+  position: absolute;
+  width: 220px;
+}
+
+#sidebar>ul {
+  border-top: 1px solid #ffffffce;
+  border-bottom: 1px solid #ffffffce;
+}
+
+.active,
+.submenu {
+  background-color: #e5e5e5;
+}
+
+#sidebar>ul>li>a:hover {
+  color: #000000;
+  background-color: #01c1c831;
+}
+
+#sidebar>ul ul li a:hover,
+#sidebar>ul>ul>li.active>a {
+  color: #000000;
+  background-color: #01c1c831;
+}
+
+#sidebar>ul ul li a {
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.navbar .nav>li>a{
+    float: none;
+    padding: 10px 15px 10px;
+    color: #00000080;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#header h1 {
+  background: url("../img/logo.png") no-repeat scroll 0 0 transparent;
+  height: 75px;
+  left: 25px;
+  line-height: 260px;
+  overflow: hidden;
+  position: relative;
+  top: -5px;
+  width: 291px;
+}

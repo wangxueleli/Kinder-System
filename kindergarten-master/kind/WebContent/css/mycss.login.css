@@ -1,0 +1,26 @@
+body{
+  background: url("../img/lo3.png") no-repeat;
+}
+
+#loginbox {
+  height: 196px;
+  background: #ffffff1c;
+  box-shadow: 0 0 4px #000000;
+  border-radius: 7px;
+  overflow: hidden !important;
+  text-align: center;
+  position: relative;
+}
+
+.form-actions{
+  background-color: #ffffff00;
+  border-top: 0px solid #e5e5e5;
+}
+
+#loginbox1 form#recoverform .control-group{
+  margin: 10px 0;
+}
+
+#loginbox1 form#recoverform .form-actions{
+  margin-top: 20px;
+}

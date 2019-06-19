@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+<!--配置连接池mysql-->
+<named-config name="c3p0-config"> 
+<property name="driverClass">com.mysql.jdbc.Driver</property> 
+<property name="jdbcUrl">jdbc:mysql://127.0.0.1:3306/kinder</property>
+<property name="user">root</property> 
+<property name="password">1235</property> 
+<!-- 初始化连接池时建立多少个连接 -->
+<property name="initialPoolSize">5</property> 
+<!-- 最大空闲时间,60秒内未使用则连接被丢弃。若为0则永不丢弃。 -->
+<property name="maxIdleTime">60</property> 
+<!-- 连接池中保留的最大连接数 -->
+<property name="maxPoolSize">10</property> 
+<!-- 连接池中保留的最小连接数 -->
+<property name="minPoolSize">5</property> 
+<!-- 最大连接数 -->
+<property name="maxStatements">20</property> 
+</named-config> 
+</c3p0-config>
